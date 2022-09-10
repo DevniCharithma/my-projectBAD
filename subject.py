@@ -1,7 +1,7 @@
 class Subject:
-    def __init__(self, module, marks):
+    def __init__(self, module, grade):
         self.module = module
-        self.marks = marks
+        self.grade = grade
 
     def __str__(self):
-        return self.module + ' ' + self.marks
+        return self.module + ' ' + self.grade
